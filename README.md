@@ -19,4 +19,4 @@ Provide instructions for setting up the project on a local machine.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/JeetInTech//Twitter-Trends-Analysis.git
