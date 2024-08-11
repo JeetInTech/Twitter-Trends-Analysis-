@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Hashtags</title>
+    <link rel="stylesheet" href="popularhashtags.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="button-container"></div>
+    <nav class="navbar">
+        <div class="navbar__container">
+          <a href="index.html" id="navbar__logo">Twitter Trends</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="index.html" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="about.html" class="navbar__links" id="about-page">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#services" class="navbar__links" id="services-page">Trending</a>
+            </li>
+            <li class="navbar__btn">
+              
+              <a href="#" class="button" id="signup">Signup</a></li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+<br>
+    <div id="categories">
+        <section>
+        <!-- General Trends -->
+        <div class="category">General Trends</div>
+        <div class="hashtag" onclick="toggleSize(this)">#Trending</div>
+        <div class="hashtag" onclick="toggleSize(this)">#Viral</div>
+        <div class="hashtag" onclick="toggleSize(this)">#Popular</div>
+        <div class="hashtag" onclick="toggleSize(this)">#Hot</div>
+    </section>
+<section>
+        <!-- Days of the Week -->
+        <div class="category">Days of the Week</div>
+        <div class="hashtag" onclick="toggleSize(this)">#MondayMotivation</div>
+        <div class="hashtag" onclick="toggleSize(this)">#TuesdayThoughts</div>
+        <div class="hashtag" onclick="toggleSize(this)">#WednesdayWisdom</div>
+        <div class="hashtag" onclick="toggleSize(this)">#ThrowbackThursday</div>
+        <div class="hashtag" onclick="toggleSize(this)">#FridayFeeling</div>
+        <div class="hashtag" onclick="toggleSize(this)">#SaturdayVibes</div>
+        <div class="hashtag" onclick="toggleSize(this)">#SundayFunday</div>
+    </section>
+    <section>
+        <!-- Social Causes -->
+        <div class="category">Social Causes</div>
+        <div class="hashtag" onclick="toggleSize(this)">#ClimateAction</div>
+        <div class="hashtag" onclick="toggleSize(this)">#BlackLivesMatter</div>
+        <div class="hashtag" onclick="toggleSize(this)">#MeToo</div>
+        <div class="hashtag" onclick="toggleSize(this)">#Equality</div>
+        <div class="hashtag" onclick="toggleSize(this)">#SocialJustice</div>
+    </section>
+    <section>
+        <!-- Entertainment -->
+        <div class="category">Entertainment</div>
+        <div class="hashtag" onclick="toggleSize(this)" >#Movies</div>
+        <div class="hashtag" onclick="toggleSize(this)">#Music</div>
+        <div class="hashtag" onclick="toggleSize(this)">#TVShows</div>
+        <div class="hashtag" onclick="toggleSize(this)">#Books</div>
+        <div class="hashtag" onclick="toggleSize(this)">#Gaming</div>
+    </section>
+    <section>
+           <!-- Seasonal and Holidays -->
+           <div class="category">Seasonal and Holidays</div>
+           <div class="hashtag">#Christmas</div>
+           <div class="hashtag">#NewYear</div>
+           <div class="hashtag">#Halloween</div>
+           <div class="hashtag">#Summer</div>
+           <div class="hashtag">#Winter</div>
+    </section>
+    <section>
+         <!-- Health and Wellness -->
+         <div class="category">Health and Wellness</div>
+         <div class="hashtag">#Fitness</div>
+         <div class="hashtag">#Wellness</div>
+         <div class="hashtag">#HealthyLiving</div>
+         <div class="hashtag">#SelfCare</div>
+    </section>
+    <section>
+            <!-- Technology -->
+            <div class="category">Technology</div>
+            <div class="hashtag">#TechTuesday</div>
+            <div class="hashtag">#Gadgets</div>
+            <div class="hashtag">#Innovation</div>
+            <div class="hashtag">#Digital</div>
+    </section>
+    <section><!-- Food and Cooking -->
+        <div class="category">Food and Cooking</div>
+        <div class="hashtag">#Foodie</div>
+        <div class="hashtag">#Recipe</div>
+        <div class="hashtag">#Cooking</div>
+        <div class="hashtag">#Foodporn</div </section>
+          
+    
+<section><!-- Travel -->
+    <div class="category">Travel</div>
+    <div class="hashtag">#Travel</div>
+    <div class="hashtag">#Wanderlust</div>
+    <div class="hashtag">#Explore</div>
+    <div class="hashtag">#Adventure</div>
+</section>
+    <section>
+           <!-- Fashion -->
+           <div class="category">Fashion</div>
+           <div class="hashtag">#Fashion</div>
+           <div class="hashtag">#Style</div>
+           <div class="hashtag">#OOTD</div>
+           <div class="hashtag">#Fashionista</div>
+    </section>
+        <!-- ... (other categories) -->
+    </div>
+
+
+    <script src="popularhashtags.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
